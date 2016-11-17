@@ -1,0 +1,171 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{
+    padding:0; margin:0;
+}
+
+ol,ul,li{
+    list-style-type:none;
+}
+
+img{
+  display: inline-block;
+  border: none;
+}
+
+input,button,textarea{
+  outline: none;
+}
+
+a{
+    text-decoration: none;
+    color:#666;
+}
+
+h2, h3 {
+font-family: "microsoft yahei";
+font-weight: 400;
+}
+
+b, u, i, s, em{
+  text-decoration: none;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.clearfix:after{
+  content:'';
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+body{
+  background-color: #efefef;
+}
+
+.padding_lr{
+  padding:0 14px;
+}
+
+@font-face {
+  font-family: 'ahiconfont';  /* project id："181359" */
+  src: url('http://at.alicdn.com/t/font_mede6dwe91jj1yvi.eot');
+  src: url('http://at.alicdn.com/t/font_mede6dwe91jj1yvi.eot') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_mede6dwe91jj1yvi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_mede6dwe91jj1yvi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_mede6dwe91jj1yvi.svg#iconfont') format('svg');
+}
+
+.LD-header{
+  height: 44px;
+  line-height: 44px;
+    color: #fff;
+  background-color: rgb(41, 173, 130);
+  border-bottom: 1px solid #000;
+}
+
+.LD-header .bar-l{
+  float: left;
+}
+
+.LD-header .bar-r{
+  float: right;
+}
+
+.LD-header .bar-r .iconfont{
+  font-family: "ahiconfont";
+  font-size: 20px;
+  font-style: normal;
+
+}
+
+nav.LD-nav{
+  height: 40px;
+  border-bottom: 1px solid #000;
+}
+
+nav.LD-nav ul{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav.LD-nav ul li{
+  float: left;
+  width: 17%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  overflow: hidden;
+}
+nav.LD-nav ul li.line{
+  width: 1px;
+  height: 20px;
+  margin-top: 12px;
+  background-color: rgb(41, 173, 130);
+}
+
+nav.LD-nav ul li a{
+  text-align: center;
+  color:rgb(41, 173, 130);
+}
+
+div.LD-main .result{
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  background: rgb(208, 59, 59);
+}
+
+div.LD-main .result span{
+  color: #fff;
+  font-size: 24px;
+}
+
+div.LD-main .code{
+  padding-top: 14px;
+  height: 100px;
+  text-align: center;
+}
+
+div.LD-main .code span{
+  display: block;
+  line-height: 35px;
+}
+
+div.LD-main .code_text{
+  font-size: 18px;
+}
+
+div.LD-main .code_num{
+  font-size: 18px;
+  color: rgb(255, 0, 0)
+}
+
+div.LD-main .info{
+  height: 180px;
+  position: relative;
+  background-color: rgb(126, 7, 7);
+  padding: 20px 14px;
+  color: rgb(242, 167, 167);
+}
+
+div.LD-main .info .circleBg{
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(126, 7, 7);
+  position: absolute;
+  top: -20px;
+  left: 43%;
+}
+
+div.LD-main .info h3{
+  height: 40px;
+  line-height: 40px;
+}
+
+div.LD-main .info p{
+  font-size: 14px;
+  line-height: 20px;
+}
